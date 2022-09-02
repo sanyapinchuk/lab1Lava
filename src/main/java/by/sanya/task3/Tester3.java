@@ -1,7 +1,6 @@
 package main.java.by.sanya.task3;
 
 import java.util.Scanner;
-import main.java.by.sanya.task3.Func;
 
 public class Tester3 {
     public static void Test(){

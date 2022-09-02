@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Func.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Tester3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task4/ArrayTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task4/Tester4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Tester3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Tester3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
