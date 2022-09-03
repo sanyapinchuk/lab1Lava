@@ -5,6 +5,7 @@ import main.java.by.sanya.task3.Tester3;
 import main.java.by.sanya.task4.Tester4;
 import main.java.by.sanya.task5.ArrayTask2;
 import main.java.by.sanya.task5.Tester5;
+import main.java.by.sanya.task6.Tester6;
 
 
 public class Application {
@@ -13,6 +14,7 @@ public class Application {
         //Tester2.Test();
         //Tester3.Test();
        // Tester4.Test();
-        Tester5.Test();
+        //Tester5.Test();
+        Tester6.Test();
     }
 }
