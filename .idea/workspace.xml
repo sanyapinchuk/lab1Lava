@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task6/ArrayTask3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task6/Tester6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task7/ShellaSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task7/Tester7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" afterDir="false" />
     </list>
@@ -72,6 +72,11 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="8" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/sanya/task7/Tester7.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -81,5 +86,10 @@
         <watch expression="currentDelete" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab1$Application.ic" NAME="Application Coverage Results" MODIFIED="1662214285956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>main.java.by.sanya.*</FILTER>
+    </SUITE>
   </component>
 </project>
