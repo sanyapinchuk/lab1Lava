@@ -7,6 +7,7 @@ import main.java.by.sanya.task5.ArrayTask2;
 import main.java.by.sanya.task5.Tester5;
 import main.java.by.sanya.task6.Tester6;
 import main.java.by.sanya.task7.Tester7;
+import main.java.by.sanya.task8.Tester8;
 
 public class Application {
     public static void main(String[] args){
@@ -16,6 +17,7 @@ public class Application {
        // Tester4.Test();
         //Tester5.Test();
         //Tester6.Test();
-        Tester7.Test();
+        //Tester7.Test();
+        Tester8.Test();
     }
 }
