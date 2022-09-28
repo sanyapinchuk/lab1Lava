@@ -1,15 +1,23 @@
-package main.java.by.sanya.task12;
+package main.java.by.sanya.task15;
 
-public class Book {
+
+public class Book implements Comparable{
     private String title;
     private String author;
     private int price;
     private static int edition;
+    private int isbn;
+
+    public int getIsbn(){
+        return isbn;
+    }
 
     public static void setEdition(int edition){
         Book.edition = edition;
     }
-    public Book(String title, String author, int price){
+
+    public Book(String title, String author, int price,  int isbn){
+        this.isbn= isbn;
         this.author= author;
         this.price = price;
         this.title = title;
@@ -34,4 +42,10 @@ public class Book {
         return result;
     }
 
+    @Override
+    public int compareTo(Object o) {
+        if(isbn>((Book)o).isbn)
+            return 1;
+        return isbn==((Book)o).isbn? 0 : -1;
+    }
 }

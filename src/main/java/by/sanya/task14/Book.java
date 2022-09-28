@@ -7,13 +7,19 @@ public class Book implements Cloneable{
     private int price;
     private static int edition;
 
+    public static void setEdition(int edition){
+        Book.edition = edition;
+    }
+
+    public Book(String title, String author, int price){
+        this.author= author;
+        this.price = price;
+        this.title = title;
+    }
+
     public Object clone()
     {
-        var book = new Book();
-        book.author= author;
-        book.title= title;
-        book.price = price;
-        book.edition = edition;
+        var book = new Book(title, author, price);
         return book;
     }
 
