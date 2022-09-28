@@ -8,7 +8,7 @@ import main.java.by.sanya.task5.Tester5;
 import main.java.by.sanya.task6.Tester6;
 import main.java.by.sanya.task7.Tester7;
 import main.java.by.sanya.task8.Tester8;
-
+import main.java.by.sanya.task9.Tester9;
 public class Application {
     public static void main(String[] args){
         //Tester1.Test();
@@ -18,6 +18,7 @@ public class Application {
         //Tester5.Test();
         //Tester6.Test();
         //Tester7.Test();
-        Tester8.Test();
+        //Tester8.Test();
+        Tester9.Test();
     }
 }
