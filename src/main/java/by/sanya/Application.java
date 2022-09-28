@@ -18,7 +18,7 @@ public class Application {
         //Tester5.Test();
         //Tester6.Test();
         //Tester7.Test();
-        //Tester8.Test();
-        Tester9.Test();
+        Tester8.Test();
+        //Tester9.Test();
     }
 }
