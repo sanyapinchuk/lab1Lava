@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="" />
+    <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task12/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task13/ProgrammerBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +31,9 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2ECZ943CuGbMGibLowEXTFHc8eH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
