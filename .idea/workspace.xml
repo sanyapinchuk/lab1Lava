@@ -7,7 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/BasketInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task10/BasketInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task11/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task11/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task11/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task11/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task11/BasketInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task11/BasketInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task12/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task12/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task13/ProgrammerBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task13/ProgrammerBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task14/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task14/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task15/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task15/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task9/BasketInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task9/BasketInteraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

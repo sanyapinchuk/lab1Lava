@@ -10,10 +10,10 @@ public class Basket {
         this.balls= balls;
     }
 
-    public List<Ball> get_Balls(){
+    public List<Ball> getBalls(){
         return balls;
     }
-    public void set_Balls(List<Ball> balls){
+    public void setBalls(List<Ball> balls){
         this.balls= balls;
     }
 }

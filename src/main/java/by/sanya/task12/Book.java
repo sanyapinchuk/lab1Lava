@@ -13,6 +13,17 @@ public class Book {
         this.title = title;
     }
 
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
     public int getPrice(){
         return price;
@@ -38,12 +49,18 @@ public class Book {
     public String toString(){
         return "title: "+ title+"; author: "+ author+"; price: "+ price+"; edition: "+ edition;
     }
+
     @Override
     public boolean equals(Object o) {
+        if(this == o)
+            return true;
+        if(o == null || getClass() != o.getClass())
+            return false;
         Book book = (Book) o;
-        return title == book.title && author == book.author &&
-                price== book.price && edition == book.edition;
+        return title.equals(book.title) && author.equals(book.author) &&
+                price== book.price;
     }
+
     @Override
     public int hashCode(){
         int result = title.hashCode();

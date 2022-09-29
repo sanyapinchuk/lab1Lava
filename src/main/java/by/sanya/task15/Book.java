@@ -21,6 +21,19 @@ public class Book implements Comparable<Book>{
         return isbn;
     }
 
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public int getPrice(){
         return price;
     }
@@ -33,6 +46,9 @@ public class Book implements Comparable<Book>{
         return author;
     }
 
+    public void setIsbn(int isbn) {
+        this.isbn = isbn;
+    }
 
     public static int getEdition(){
         return edition;
@@ -46,9 +62,13 @@ public class Book implements Comparable<Book>{
     }
     @Override
     public boolean equals(Object o) {
+        if(this == o)
+            return true;
+        if(o == null || getClass() != o.getClass())
+            return false;
         Book book = (Book) o;
-        return title == book.title && author == book.author &&
-                price== book.price && edition == book.edition;
+        return title.equals(book.title) && author.equals(book.author) &&
+                price== book.price;
     }
     @Override
     public int hashCode(){
