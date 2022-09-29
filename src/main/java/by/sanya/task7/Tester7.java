@@ -1,11 +1,11 @@
 package main.java.by.sanya.task7;
 
 public class Tester7 {
-    public static void Test(){
+    public static void test(){
         var temp = new ShellaSort(10);
-        temp.ShowArray();
-        temp.Sort();
-        temp.ShowArray();
+        temp.showArray();
+        temp.sort();
+        temp.showArray();
     }
 
 

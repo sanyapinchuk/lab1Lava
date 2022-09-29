@@ -14,13 +14,13 @@ public class CountResult {
         this.y = 0;
         isDegrees = true;
     }
-    private void ConvertToDegrees(){
+    private void сonvertToDegrees(){
         x *= 180/ Math.PI;
         y *= 180/ Math.PI;
     }
-    public double CalculateTask (){
+    public double сalculateTask (){
         if(!isDegrees)
-            ConvertToDegrees();
+            сonvertToDegrees();
         return (1+ Math.sin(x+y) * Math.sin(x+y))/(2+ Math.abs(x-(x*2)/(1+x*x*y*y)))+x;
     }
 }

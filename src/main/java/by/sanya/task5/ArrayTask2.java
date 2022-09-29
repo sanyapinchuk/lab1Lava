@@ -16,8 +16,7 @@ public class ArrayTask2 {
         }
     }
 
-    public void ShowArray()
-    {
+    public void showArray(){
         for (int curr: arr
              ) {
             System.out.printf(" %d", curr);
@@ -25,7 +24,7 @@ public class ArrayTask2 {
         System.out.println();
     }
 
-    private int GetNextIndexOfEndSequence(int i){
+    private int getNextIndexOfEndSequence(int i){
         while(i< ExistIndexes.length && ExistIndexes[i]==false)
             ++i;
         if(i>= arr.length)
@@ -33,8 +32,7 @@ public class ArrayTask2 {
         return i;
     }
 
-    private int GetCountOfEndSeq()
-    {
+    private int getCountOfEndSeq(){
         int count = 0;
         for (boolean curr:
                 ExistIndexes) {
@@ -48,13 +46,13 @@ public class ArrayTask2 {
     {
         for (int i= 0; i< ExistIndexes.length-1; ++i)
         {
-            if(arr[GetNextIndexOfEndSequence(i)] > arr[GetNextIndexOfEndSequence(i+1)] )
+            if(arr[getNextIndexOfEndSequence(i)] > arr[getNextIndexOfEndSequence(i+1)] )
                 return false;
         }
         return true;
     }
 
-    private void ShowIndexes(){
+    private void showIndexes(){
         for (boolean bool: ExistIndexes
              ) {
             if(bool)
@@ -68,18 +66,18 @@ public class ArrayTask2 {
     }
 
 
-    public int GetResult(){
+    public int getResult(){
         for(int i= 0; i< arr.length; ++i){
             ExistIndexes[i] = false;
         }
         ExistIndexes[0]=true;
-        NextAction(0);
+        nextAction(0);
         ExistIndexes = saveIndexes;
         //ShowIndexes();
         return lengthEndOfSeq;
     }
 
-    private boolean IsAllFalse(){
+    private boolean isAllFalse(){
         for (boolean bool:
             ExistIndexes) {
             if(bool)
@@ -88,10 +86,10 @@ public class ArrayTask2 {
         return true;
     }
 
-    private void NextAction(int current){
+    private void nextAction(int current){
         //ShowIndexes();
         if(isEndSequence()){
-            var temp = GetCountOfEndSeq();
+            var temp = getCountOfEndSeq();
             if(temp>lengthEndOfSeq)
             {
                 lengthEndOfSeq = temp;
@@ -101,9 +99,9 @@ public class ArrayTask2 {
         }
         if(current+1<arr.length){
             ExistIndexes[current+1] = !ExistIndexes[current+1];
-            if(IsAllFalse())
+            if(isAllFalse())
                 return;
-            NextAction(current+1);
+            nextAction(current+1);
         }
         else
         {
@@ -117,7 +115,7 @@ public class ArrayTask2 {
             }
 
             ExistIndexes[current-1] = false;
-            NextAction(current-1);
+            nextAction(current-1);
         }
     }
 

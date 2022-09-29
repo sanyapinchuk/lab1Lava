@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Tester9 {
-    public static void Test(){
+    public static void test(){
         var balls = new ArrayList<Ball>();
         var random = new Random();
         Color[] colors = { Color.BLUE, Color.GREEN, Color.RED};

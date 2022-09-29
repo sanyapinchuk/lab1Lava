@@ -11,19 +11,18 @@ public class ShellaSort {
         }
     }
 
-    private void Swap(int i, int j)
-    {
+    private void swap(int i, int j){
         var temp = arr[i];
         arr[i] = arr[j];
         arr[j]= temp;
     }
 
-    public void Sort(){
+    public void sort(){
         int i = 0;
         while(i<size-1){
             if(arr[i]>arr[i+1])
             {
-                Swap(i,i+1);
+                swap(i,i+1);
                 if(i!=0)
                     i--;
 
@@ -36,7 +35,7 @@ public class ShellaSort {
         }
     }
 
-    public void ShowArray(){
+    public void showArray(){
         if(arr != null){
             for (int j =0; j< size; j++){
                 System.out.printf(" %d", arr[j]);

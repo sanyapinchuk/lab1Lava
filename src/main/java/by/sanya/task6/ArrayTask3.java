@@ -9,8 +9,7 @@ public class ArrayTask3 {
 
     int size;
 
-    public ArrayTask3(int n)
-    {
+    public ArrayTask3(int n){
         initArr = new int[n];
         size = n;
         for (int i = 0; i < n; i++){
@@ -19,8 +18,7 @@ public class ArrayTask3 {
         }
     }
 
-    public void CreateArray()
-    {
+    public void createArray(){
         resultArr = new int[size][size];
         for (int i = 0; i < size; i++){
             for (int j = 0; j < size-i; j++){
@@ -32,7 +30,7 @@ public class ArrayTask3 {
             }
         }
     }
-    public void ShowArray(){
+    public void showArray(){
         if(resultArr!= null){
             for (int i =0; i< size; i++){
                 for (int j =0; j< size; j++){

@@ -18,8 +18,7 @@ public class ArrayTask4 {
     int N;
     int M;
 
-    public void ShowArray(int arr[], String color)
-    {
+    public void showArray(int arr[], String color){
         System.out.println();
         for (int curr: arr
         ) {
@@ -28,7 +27,7 @@ public class ArrayTask4 {
         System.out.println();
     }
 
-    private void InitArray(int arr[], int size){
+    private void initArray(int arr[], int size){
 
         int temp;
         int last = 0;
@@ -47,16 +46,16 @@ public class ArrayTask4 {
         arrB = new int[M];
         this.N = N;
         this.M = M;
-        InitArray(arrA, N);
-        InitArray(arrB, M);
+        initArray(arrA, N);
+        initArray(arrB, M);
     }
 
-    public void GetResult(){
+    public void getResult(){
         int arrResult[] = new int[N+M];
         int kA =0;
         int kB = 0;
-        ShowArray(arrA, ANSI_RED);
-        ShowArray(arrB, ANSI_BLUE);
+        showArray(arrA, ANSI_RED);
+        showArray(arrB, ANSI_BLUE);
         System.out.println();
 
         for (int i = 0; i< N+M; i++){

@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task16/Tester16.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task12/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task12/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task13/ProgrammerBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task13/ProgrammerBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task14/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task14/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task15/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task15/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task1/CountResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task1/CountResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task1/Tester1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task1/Tester1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Tester10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Tester10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task2/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task2/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task2/Tester2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task2/Tester2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Func.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Func.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Tester3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task3/Tester3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task4/ArrayTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task4/ArrayTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task4/Tester4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task4/Tester4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task5/ArrayTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task5/ArrayTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task5/Tester5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task5/Tester5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task6/ArrayTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task6/ArrayTask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task6/Tester6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task6/Tester6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task7/ShellaSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task7/ShellaSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task7/Tester7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task7/Tester7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task8/ArrayTask4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task8/ArrayTask4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task8/Tester8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task8/Tester8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Tester9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task9/Tester9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +117,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/by/sanya/task8/ArrayTask4.java</url>
-          <line>58</line>
+          <line>57</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

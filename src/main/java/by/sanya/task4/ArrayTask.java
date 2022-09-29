@@ -13,7 +13,7 @@ public class ArrayTask {
         
     }
 
-    public void GetResult (){
+    public void getResult (){
         for (int i =0; i< arr.length; i++) {
             BigInteger bigInt = BigInteger.valueOf(arr[i]);
             boolean isPrime = bigInt.isProbablePrime((int) Math.log(arr[i]));

@@ -11,8 +11,7 @@ public class Func {
         this.h= h;
     }
 
-    public void GetResult()
-    {
+    public void getResult(){
         System.out.println("_______________________");
         System.out.println("|____X_____|_____Y____|");
         double curr = a;
