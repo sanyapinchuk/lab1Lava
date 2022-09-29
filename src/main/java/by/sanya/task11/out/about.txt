@@ -1,0 +1,2 @@
+run
+java -jar lab1.jar

@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task10/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/bin/main/java/by/sanya/task10/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/bin/main/java/by/sanya/task10/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/bin/main/java/by/sanya/task10/Basket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/bin/main/java/by/sanya/task10/BasketInteraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task10/bin/main/java/by/sanya/task10/Tester10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/sanya/task5/ArrayTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/sanya/task5/ArrayTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Basket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/BasketInteraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Tester10.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Asus/Desktop/учеба/java/1lab/lab1/src/main/java/by/sanya/task11/out",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.by.sanya.Application" />

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lab1:jar2">
+    <output-path>$PROJECT_DIR$/src/main/java/by/sanya/task11/out</output-path>
+    <root id="archive" name="lab1.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/by/sanya/task11/out/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="lab1" />
+    </root>
+  </artifact>
+</component>
