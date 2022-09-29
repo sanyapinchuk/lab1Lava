@@ -25,7 +25,7 @@ public class ArrayTask2 {
     }
 
     private int getNextIndexOfEndSequence(int i){
-        while(i< ExistIndexes.length && ExistIndexes[i]==false)
+        while(i< ExistIndexes.length && !ExistIndexes[i])
             ++i;
         if(i>= arr.length)
             i = 0;
@@ -56,9 +56,9 @@ public class ArrayTask2 {
         for (boolean bool: ExistIndexes
              ) {
             if(bool)
-                System.out.printf(" 1");
+                System.out.print(" 1");
             else {
-                System.out.printf(" 0");
+                System.out.print(" 0");
             }
 
         }
@@ -87,7 +87,7 @@ public class ArrayTask2 {
     }
 
     private void nextAction(int current){
-        //ShowIndexes();
+        //showIndexes();
         if(isEndSequence()){
             var temp = getCountOfEndSeq();
             if(temp>lengthEndOfSeq)
@@ -106,13 +106,13 @@ public class ArrayTask2 {
         else
         {
             if(current-1>=0)
-            while(ExistIndexes[current-1]== false)
-            {
-                if(current-1==0)
-                    break;
-                else
-                    --current;
-            }
+                while(!ExistIndexes[current-1])
+                {
+                    if(current-1==0)
+                        break;
+                    else
+                        --current;
+                }
 
             ExistIndexes[current-1] = false;
             nextAction(current-1);

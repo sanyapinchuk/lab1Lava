@@ -1,9 +1,9 @@
-package main.java.by.sanya.task10;
+package main.java.by.sanya.task11;
 
 
 
 public class Application {
     public static void main(String[] args){
-        Tester10.test();
+        Tester11.test();
     }
 }
