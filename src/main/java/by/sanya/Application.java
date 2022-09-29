@@ -1,5 +1,6 @@
 package main.java.by.sanya;
 import main.java.by.sanya.task1.Tester1;
+import main.java.by.sanya.task16.Tester16;
 import main.java.by.sanya.task2.Tester2;
 import main.java.by.sanya.task3.Tester3;
 import main.java.by.sanya.task4.Tester4;
@@ -18,7 +19,8 @@ public class Application {
         //Tester5.Test();
         //Tester6.Test();
         //Tester7.Test();
-        Tester8.Test();
+        //Tester8.Test();
         //Tester9.Test();
+        Tester16.Test();
     }
 }

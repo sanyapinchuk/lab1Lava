@@ -6,13 +6,32 @@ public class Book {
     private int price;
     private static int edition;
 
-    public static void setEdition(int edition){
-        Book.edition = edition;
-    }
+
     public Book(String title, String author, int price){
         this.author= author;
         this.price = price;
         this.title = title;
+    }
+
+
+    public int getPrice(){
+        return price;
+    }
+
+    public String getTitle(){
+        return title;
+    }
+
+    public String getAuthor(){
+        return author;
+    }
+
+
+    public static int getEdition(){
+        return edition;
+    }
+    public static void setEdition(int edition){
+        Book.edition = edition;
     }
 
     @Override

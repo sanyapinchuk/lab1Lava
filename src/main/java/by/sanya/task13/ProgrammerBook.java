@@ -13,6 +13,14 @@ public class ProgrammerBook extends Book {
         this.language = language;
     }
 
+    public String getLanguage(){
+        return language;
+    }
+
+    public int getLevel(){
+        return level;
+    }
+
     @Override
     public String toString(){
         return "language: "+ language + "; level: "+ level;
