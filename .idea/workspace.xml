@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="unnamed" />
+      <artifact name="lab1:jar2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11e21c60-41fe-4a6d-aaea-c57a8a5a021b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/lab1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Ball.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Basket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/BasketInteraction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out9/main/java/by/sanya/task10/Tester10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
